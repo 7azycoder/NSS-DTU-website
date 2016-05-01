@@ -1,0 +1,63 @@
+<!-- facebook like button -->
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+<div class="fb-like" data-href="https://www.facebook.com/NSSDelTech?fref=ts" data-width="60px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+
+
+
+
+<!-- Facebook share button -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div class="fb-share-button" data-href="http://lovepreet.csidtu.in" data-layout="button_count"></div>
+
+
+<!-- Facebook page plugin -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+<div class="fb-page" data-href="https://www.facebook.com/NSSDelTech?fref=tsa" data-tabs="timeline" data-width="180" data-height="70" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/NSSDelTech?fref=tsa"><a href="https://www.facebook.com/NSSDelTech?fref=tsa">NSS DTU</a></blockquote></div></div>
+
+
+<!-- Calendar -->
+<iframe src="https://www.google.com/calendar/embed?title=Calendar&amp;showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=200&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FCalcutta" style=" border:solid 1px #777 " width="250" height="200" frameborder="0" scrolling="no"></iframe>
+
+
+
+<!-- Youtube video -->
+<div class="row">
+	<div class="twelve columns">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/GOgNLsgOGBo" frameborder="0" allowfullscreen></iframe>
+	</div>
+</div>
+
+
+
+

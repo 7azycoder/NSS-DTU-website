@@ -1,0 +1,278 @@
+
+/* Upcoming events */
+/*--featured-section--*/
+.featured-section{
+    padding: 0 0 3em 0;
+}
+.featured-main {
+padding-top: 1.2em;
+}
+.featured-section h2 {
+color: #ffd400;
+text-transform: uppercase;
+font-size:2em;
+margin: 0 0 11px 0;
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+}
+.feature-text h3 {
+    color: #414242;
+    font-size:1.4em;
+    line-height: 1.6em;
+    font-family: 'Open Sans', sans-serif;
+    padding:0.5em 0 0.6em 0;
+    font-weight:600;
+    margin: 5px 0px;
+}
+.feature-text p {
+    color: #999;
+    font-size:1.2em;
+    line-height: 1.8em;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+    padding: 0;
+    font-weight: 300;
+}
+.feature-text h2 {
+    color: #ffd400;
+    text-transform: uppercase;
+    font-size:3.4em;
+    margin: 0 0 11px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+}
+ul.topic_grid{
+    list-style:none;
+    padding:0;
+}
+.popular_topics1 {
+    background:#DB2927;
+}
+
+/*** .Nav Class ************************/
+.icon-minus-sign:after {
+    content: "";
+    background: url(img/plus.png)no-repeat;
+    width:16px;
+    height:16px;
+    position: absolute;
+    top: 23px
+}
+.accordation_menu label {
+    line-height:43px;
+    font-weight:600;
+}
+.icon-plus-sign:before {
+    content: "";
+    background: url(img/plus.png)no-repeat;
+    width:16px;
+    height:16px;
+    position: absolute;
+    top: 16px
+}
+.accordation_menu label{
+    display: block;
+    position: relative;
+    padding: 6px 20px;
+    height: 54px;
+    cursor: pointer;
+    z-index: 20;
+    transition: background-color .7s;
+    -webkit-transition: background-color .7s;
+    -moz-transition: background-color .7s;
+    -o-transition: background-color .7s;
+    -ms-transition: background-color .7s;
+    border: 1px solid #999;
+}
+.accordation_menu input{
+    display: none;
+}
+/*** Right Icon ***/
+.accordation_menu label i.i-right1,
+.accordation_menu label i.i-right2{
+    float:right;
+    margin-right:15px;
+    padding:6px 0 0 0;
+    transition:all .7s;
+    -webkit-transition:all .7s;
+    -moz-transition:all .7s;
+    -o-transition:all .7s;
+    -ms-transition:all .7s;
+}
+.accordation_menu label i.i-right2{
+    display:none;
+}
+.accordation_menu input:checked + label i.i-right1{
+    display:none;
+}
+.accordation_menu input:checked + label i.i-right2{
+    display:block;
+}
+/*** .content Class *********************/
+.content{
+    position: relative;
+    height: 0px;
+    margin-top: -1px;
+    overflow:hidden;
+    z-index: 10;
+    -webkit-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+    -moz-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+    -o-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+    -ms-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+    transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+}
+.content h4{
+    padding:8px 0 7px 15px;
+}
+.content h6{
+    padding:8px 15px 10px 15px;
+    margin:10px;
+    border-top:1px solid #999999;
+}
+.content h6 i{
+    padding:0 5px;
+    font-size:10px;
+}
+.accordation_menu input:checked ~ div.content{
+    height:143px;
+}
+/*** For Change Animation Effects ****/
+.accordation_menu input:checked ~ .content p{       
+    -webkit-animation: zoomIn .7s 1;
+    animation: zoomIn .7s 1;
+}
+.accordation_menu input:checked ~ .content h6{       
+    -webkit-animation: fadeIn 2s 1;
+    animation: fadeIn 2s 1;
+}
+.accordation_menu a, .accordation_menu p{
+    color: #919090;
+}
+.accordation_menu h4{
+    color: #01C675;
+    padding: 15px 0 15px 15px;
+    font-size: 1.2em;
+    font-weight: 600;           
+}
+.accordation_menu label{
+    background: #fff;
+    color: #444;
+    font-size: 17px;
+    font-weight: 300;
+}
+.accordation_menu label:hover{                    
+    color:#000;
+}
+.accordation_menu label:hover .icon-plus-sign:before {
+    content: "";
+    background: url(img/minus.png)no-repeat;
+    width:16px;
+    height:16px;
+    position: absolute;
+    top:23px;
+}
+.accordation_menu input:checked + label,
+.accordation_menu input:checked + label:hover{ 
+    border: 1px solid #999;
+    color: #999;
+}
+span.m_5{
+    color: #000;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 300;
+}
+h3.m_3 {
+font-size: 1.9em;
+font-weight: 600;
+color: #444;
+font-family: 'Open Sans', sans-serif;
+}
+.feature-accord {
+margin-top: -23px;
+}
+
+span.m_5:hover{
+    text-decoration:none;
+}
+ul.news_list {
+    padding: 2% 0 1% 4%;
+    list-style: none;
+    background: #fff;
+}
+ul.news_list li.date {
+    float: left;
+    width: 15.5%;
+    border-right: 1px solid #CCC;
+    /*padding-right: 3%; */
+    margin:5% 4% 0% 0;
+}
+.date {
+    line-height: 0.5em;
+    font-size:2em;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+span.highlight, span.light_color {
+    display: inline-block;
+    font-size:14px;
+    color: #555;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+li.date_desc {
+    float: left;
+    /*width: 82.5%; */
+}
+li.date_desc p{
+    font-size: 1.2em;
+    line-height: 1.8em;
+    float: left;
+    font-weight: 400;
+}
+
+
+/* end upcoming events */
+
+/* Rotate */
+a.button.rotate2 {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  text-decoration: none;
+    color: #999;
+    font-size: 1.2em;
+    border:1px solid#666;
+    padding: 0.8em 1.6em;
+    background: none;
+    font-family: 'Open Sans', sans-serif;
+}
+a.button.rotate2:hover, a.button.rotate2:focus,a.button.rotate2:active {
+  -webkit-transform: rotate(4deg);
+  transform: rotate(4deg);
+}
+a.button.rotate2 span{
+    background: url(images/arrow.png) no-repeat 0px 0px;
+    width:20px;
+    height:10px;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 9px;
+    vertical-align:middle;
+    margin: 1px -3px 3px 13px;
+}
+a.button.rotate2:hover{
+    background: #ffd400;
+    border: 1px solid#ffd400;
+    color: #444;
+}
+
+/* end rotating button */
